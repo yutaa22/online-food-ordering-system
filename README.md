@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Online Food Ordering System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An Online Food Ordering System web application built using HTML, CSS, JavaScript, and React.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+- Display food items
+- Add food to cart
+- Remove items from cart
+- Calculate total amount
+- Responsive user interface
+- React Router navigation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used
 
-### `npm test`
+- HTML
+- CSS
+- JavaScript
+- React.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+# Project Structure
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+src/
+│
+├── components/
+│ ├── Navbar.js
+│ ├── FoodCard.js
+│
+├── pages/
+│ ├── Home.js
+│ ├── Cart.js
+│
+├── styles/
+│ ├── style.css
+│
+├── App.js
+├── index.js
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Requirements
 
-### `npm run eject`
+Before running the project, install:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Node.js
+- npm (comes with Node.js)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Download Node.js from:
+https://nodejs.org
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# How to Run the Project
 
-## Learn More
+## Step 1: Download the Project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Download ZIP from GitHub and extract it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+OR
 
-### Code Splitting
+Clone the repository:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/YOUR_USERNAME/online-food-ordering-system.git
+Step 2: Open Project Folder
+cd online-food-ordering-system
+Step 3: Install Dependencies
+npm install
 
-### Analyzing the Bundle Size
+This will install all required packages.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Step 4: Start the Application
+npm start
