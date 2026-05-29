@@ -24,38 +24,6 @@ An Online Food Ordering System web application built using HTML, CSS, JavaScript
 
 ---
 
-# Project Structure
-
-src/
-│
-├── components/
-│ ├── Navbar.js
-│ ├── FoodCard.js
-│
-├── pages/
-│ ├── Home.js
-│ ├── Cart.js
-│
-├── styles/
-│ ├── style.css
-│
-├── App.js
-├── index.js
-
----
-
-# Requirements
-
-Before running the project, install:
-
-- Node.js
-- npm (comes with Node.js)
-
-Download Node.js from:
-https://nodejs.org
-
----
-
 # How to Run the Project
 
 ## Step 1: Download the Project
@@ -66,14 +34,19 @@ OR
 
 Clone the repository:
 
-```bash
 git clone https://github.com/YOUR_USERNAME/online-food-ordering-system.git
+
 Step 2: Open Project Folder
+
 cd online-food-ordering-system
+
 Step 3: Install Dependencies
+
 npm install
 
 This will install all required packages.
 
 Step 4: Start the Application
 npm start
+
+npm install react-router-dom
