@@ -42,11 +42,9 @@ cd online-food-ordering-system
 
 Step 3: Install Dependencies
 
-npm install
+npm install react-router-dom
 
 This will install all required packages.
 
 Step 4: Start the Application
 npm start
-
-npm install react-router-dom
