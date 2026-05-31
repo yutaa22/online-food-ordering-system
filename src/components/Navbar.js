@@ -5,7 +5,7 @@ function Navbar({ cartCount }) {
   return (
     <nav className='navbar'>
 
-      <h2>Food Ordering System</h2>
+      <h2>FoodieHub</h2>
 
       <div>
         <Link to='/'>Home</Link>
